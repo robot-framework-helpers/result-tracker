@@ -1,22 +1,29 @@
-.App {
-  text-align: center;
+.indicator {
+  appearance: none;
+  border-radius: 9px;
+  margin: 2px;
+  border: none;
+  color: black;
+  font-size: 26px;
+  padding: 10px 25px;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
+.indicator-pass {
+  background: #5CB85C;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.indicator-fail {
+  background: #D9534F;
 }
 
-.App-link {
-  color: #09d3ac;
+.indicator-not-ran {
+  background: #DDD;
+}
+
+.table-sort {
+  margin-left: 5px;
+}
+.table-sort-inactive {
+  opacity: 0.3;
 }
